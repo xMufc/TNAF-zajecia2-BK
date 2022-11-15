@@ -1,0 +1,91 @@
+label, p{
+    color: rgb(237, 101, 43);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+}
+input, textarea, select{
+    margin-top: 5px;
+}
+form h1{
+    color: rgb(237, 101, 43);
+    margin-right: auto;
+}
+.name, .data{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.nameLeft{
+    margin-right: 30px;
+}
+.nameLeft, .nameRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.name input, .data input, .gend select, .mess textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.dataLeft, .dataCenter, .dataRight{
+    width: 30%;
+}
+.gend{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.jobType, .language{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.jobPositions, .langPositions{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.jobType label, .language label{
+    color: black;
+}
+.mess{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.button{
+    color: white;
+    background-color: rgb(237, 101, 43);
+    border: none;
+}
+.btns{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.reset {
+    width: 23%;
+}
+.btns input{
+    width: 75%;
+}
+.button{
+    border-radius: 2px;
+    padding: 7px;
+}
